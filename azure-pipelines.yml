@@ -19,7 +19,7 @@ strategy:
       imageName: "ubuntu-latest"
       python.version: '3.6'
     Python37:
-      imageName: "windows-latest"
+      imageName: "macOS-latest"
       python.version: '3.7'
   maxParallel: 4
 
