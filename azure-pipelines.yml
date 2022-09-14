@@ -6,19 +6,24 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
 
 strategy:
   matrix:
     Python27:
+      imageName: "ubuntu-latest"
       python.version: '2.7'
     Python35:
+      imageName: "ubuntu-latest"
       python.version: '3.5'
     Python36:
+      imageName: "ubuntu-latest"
       python.version: '3.6'
     Python37:
+      imageName: "ubuntu-latest"
       python.version: '3.7'
+
+pool:
+  vmImage: $(imageName)
 
 steps:
 - task: UsePythonVersion@0
