@@ -13,13 +13,13 @@ strategy:
       imageName: "ubuntu-latest"
       python.version: '2.7'
     Python35:
-      imageName: "ubuntu-latest"
+      imageName: "windows-latest"
       python.version: '3.5'
     Python36:
       imageName: "ubuntu-latest"
       python.version: '3.6'
     Python37:
-      imageName: "ubuntu-latest"
+      imageName: "windows-latest"
       python.version: '3.7'
 
 pool:
