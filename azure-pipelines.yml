@@ -9,9 +9,6 @@ trigger:
 
 strategy:
   matrix:
-    Python27:
-      imageName: "ubuntu-latest"
-      python.version: '2.7'
     Python35:
       imageName: "windows-latest"
       python.version: '3.5'
